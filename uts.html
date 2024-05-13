@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Pendaftaran Lomba 17 Agustus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        table {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #fff;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td {
+            border-bottom: 1px solid #ddd;
+        }
+        input[type="text"], input[type="email"], input[type="tel"], select {
+            width: 100%;
+            padding: 8px;
+            margin: 4px 0;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align: center;">Form Pendaftaran Lomba 17 Agustus</h2>
+
+<form>
+    <table>
+        <tr>
+            <th colspan="2">Informasi Peserta</th>
+        </tr>
+        <tr>
+            <td>Nama Lengkap:</td>
+            <td><input type="text" name="nama_lengkap"></td>
+        </tr>
+        <tr>
+            <td>No. Telepon:</td>
+            <td><input type="tel" name="no_telepon"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin:</td>
+            <td>
+                <select name="jenis_kelamin">
+                    <option value="">Pilih</option>
+                    <option value="Laki-Laki">Laki-Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Usia:</td>
+            <td><input type="text" name="usia"></td>
+        </tr>
+        <tr>
+            <td>Lomba yang Diikuti:</td>
+            <td>
+                <select>
+                    <option value="">Pilih Lomba</option>
+                    <option value="Balap Karung">Balap Karung</option>
+                    <option value="Lomba Makan Kerupuk">Lomba Makan Kerupuk</option>
+                    <option value="Tarik Tambang">Tarik Tambang</option>
+                    <option value="Panjat Pinang">Panjat Pinang</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><input type="submit" value="Daftar"></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>
